@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import avion from './imagenes/avion.jpg'
+/*import avion from './imagenes/avion.jpg'*/
 import Boton from './componentes/Boton';
 import Pantalla from './componentes/Pantalla';
 import BotonClear from './componentes/BotonClear';
@@ -31,11 +31,6 @@ function App() {
   return (
     <div className="App">
       <div className="contenedor-logo">
-        <img 
-          src={avion}
-          className="foto-logo"
-          alt="Logo app"
-        />
       </div>
       <div className="contenedor-calculadora">
         <Pantalla input={input}/>
